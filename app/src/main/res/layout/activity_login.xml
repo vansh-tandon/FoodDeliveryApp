@@ -99,7 +99,7 @@
                     android:background="@drawable/ic_edtbackg_new"
                     android:elevation="10dp"
                     android:ems="10"
-                    android:hint="Mobile Number"
+                    android:hint="Email"
                     android:inputType="textEmailAddress"
                     android:padding="10dp"
                     android:text="@={viewmodel.email}"
@@ -139,7 +139,7 @@
                     android:elevation="50dp"
                     android:ems="10"
                     android:hint="Password"
-                    android:inputType="textPersonName"
+                    android:inputType="textPassword"
                     android:text="@={viewmodel.password}"
                     android:textColorHint="#756C6C"
                     android:textSize="18sp" />

@@ -49,6 +49,6 @@ class LoginActivity : AppCompatActivity(),AuthListener {
 
     override fun onFailure(message: String) {
         binding.spinKit1.visibility= View.INVISIBLE
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Enter correct credentials", Toast.LENGTH_SHORT).show()
     }
 }
